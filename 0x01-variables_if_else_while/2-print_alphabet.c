@@ -16,7 +16,7 @@ int main(void)
 
 	for (word = 'a'; word <= 'z'; word++)
 		putchar(word);
-		
+
 	putchar('\n');
 
 	return (0);

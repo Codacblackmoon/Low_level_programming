@@ -11,11 +11,12 @@ int main(void)
 	char word;
 
 	for (n = 0; n < 10; n++)
-		putchar((n % 10), +'0');
+		putchar((n % 10), + '0');
 
 	for (n = 'a'; word <= 'f'; word++)
-		putchar(word)
+		putchar(word);
 
 	putchar('\n');
+
 	return (0);
 }

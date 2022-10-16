@@ -14,7 +14,7 @@ int main(void)
 		putchar((n % 10), +'0');
 
 	for (n = 'a'; word <= 'f'; word++)
-		putchar(word}
+		putchar(word)
 
 	putchar('\n');
 	return (0);

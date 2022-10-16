@@ -9,12 +9,12 @@ int main(void)
 {
 	char word;
 
-	for (word == 'a'; word <= 'z'; word++)
+	for (word = 'a'; word <= 'z'; word++)
 	{
 		if (word != 'e' && word != 'q')
 			putchar(word);
 	}
 
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }

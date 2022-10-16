@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char wrod;
+	char word;
 
-	for (word == 'a'; word <= 'z'; word++)
+	for (word = 'a'; word <= 'z'; word++)
 		putchar(word);
 
-	for (word == 'A'; word <= 'Z'; word++)
+	for (word = 'A'; word <= 'Z'; word++)
 		putchar(word);
 
-			putchur('\n');
+			putchar('\n');
 		return (0);
 }

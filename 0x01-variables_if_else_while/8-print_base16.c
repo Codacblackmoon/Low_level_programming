@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	int n;
-	char word;
+	int num;
+	char letter;
 
-	for (n = 0; n < 10; n++)
-		putchar((n % 10) +'0');
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-	for (n = 'a'; word <= 'f'; word++)
-		putchar(word);
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 

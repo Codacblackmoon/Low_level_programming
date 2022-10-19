@@ -2,11 +2,11 @@
 
 /**
  * _putchar - prints _putchar
- *
+ * @char c:is the char to be printed.
  * Return: Always 0 (Success)
  */
 
-int _putchar(void)
+int _putchar(char c)
 {
 _putchar('_');
 _putchar('p');

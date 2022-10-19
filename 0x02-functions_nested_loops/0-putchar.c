@@ -2,7 +2,7 @@
 
 /**
  * _putchar - prints _putchar
- * @char c:is the char to be printed.
+ * @c:is the char to be printed.
  * Return: Always 0 (Success)
  */
 

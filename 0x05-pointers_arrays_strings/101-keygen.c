@@ -18,9 +18,9 @@ int main(void)
 
 	for (a = 0; a <= 100; a++)
 	{
-		pass[i] = rand() % 78;
-		sum += (pass[i] + '0');
-		putchar(pass[i] + '0');
+		pass[a] = rand() % 78;
+		sum += (pass[a] + '0');
+		putchar(pass[a] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{
 			b = 2772 - sum - '0';

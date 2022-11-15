@@ -1,10 +1,9 @@
 #include "dog.h"
-#include <stdlib>
-
+#include <stdlib.h>
 /**
  * free_dog - function to free memory
  * @d: is pointer to dog_t
- */
+ **/
 void free_dog(dog_t *d)
 {
 	if (d != NULL)

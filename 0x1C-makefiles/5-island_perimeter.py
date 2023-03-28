@@ -7,7 +7,7 @@ def island_perimeter(grid):
                     Return: perimrter of the island described in grid
     """
 
-    perimter = 0
+    perimeter = 0
     env_list = []
 
     for items in range(len(grid)):
